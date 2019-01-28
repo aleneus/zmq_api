@@ -1,0 +1,30 @@
+* 0.1.0
+** DONE [t] add test for check ok status
+** DONE [t] at least one test for check error status
+** DONE [p] test._request(): Use command and args istead of body
+** DONE [t] Use JSON RPC
+** DONE [t] Add tests
+** DONE [t] Implement special unit for json_rpc (rpc.py)
+** DONE [t] use somewhere PARSE_ERROR
+** DONE [t] use JSON string instead of dict in the tests and API
+** DONE [t] add test with wrong json
+** DONE [t] Style
+** DONE [t] Lint
+** DONE [t] Rename id. Use req_id or something like this
+** DONE [t] Get rid of params and req_id arguments in method
+** DONE [t] Add messages to standard errors
+** DONE [t] Rename class BaseZmqApi
+** DONE [t] Only functions for processing of arrays are needed in lib
+** DONE [t] Add test with wrong activity name
+** DONE [t] Id must be null in responce in some cases
+** DONE [t] Think again about project structure
+** DONE [t] Make single module instead of package
+** DONE [t] Let methods return errors
+** DONE [t] Add test for wrong parameters
+** DONE [t] Add an example to the project
+** DONE [t] Fix hardcode '127.0.0.1'
+* later
+** TODO [t] Unify returned data from methods
+** TODO [t] Think about internal error
+** TODO [t] Bad pattern while True
+** TODO [e] Add data to error response
